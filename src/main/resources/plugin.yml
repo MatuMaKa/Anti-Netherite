@@ -1,0 +1,15 @@
+name: Anti-Netherite
+version: '1.0'
+main: xyz.matumaka.antiNetherite.AntiNetherite
+api-version: '1.21'
+authors: [ MatuMaKa ]
+description: Disable Netherite In Your Server
+commands:
+    antinetherite:
+        description: Main command for Anti-Netherite plugin
+        usage: /<command> reload
+        permission: op
+permissions:
+    antinetherite.bypass:
+        description: bypass the netherite restrictions
+        default: op
